@@ -1,16 +1,2 @@
-(function () {
-    $('.customer').on('click', function () {
-        $(this).parent().hide();
-        $('.oder-x').show();
-    })
-
-    $('.btnb').on('click', function () {
-        $(this).parents('.oder-x').hide();
-        $('.box-f').show()
-    })
-    //点击签到时文字换成已签到
-    $('.sign').on('touchstart',function(){
-        $(this).children('span').text('已签到')
-    })
-
-}())
+$(".customer").on("click",function(){$(this).parent().hide(),$(".oder-x").show()}),$(".btnb").on("click",function(){$(this).parents(".oder-x").hide(),$(".box-f").show()}),$(".sign").on("touchstart",function(){$(this).children("span").text("已签到")});
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBlcnNvbmFsQ2VudGVyLmpzIl0sIm5hbWVzIjpbIiQiLCJvbiIsInRoaXMiLCJwYXJlbnQiLCJoaWRlIiwic2hvdyIsInBhcmVudHMiLCJjaGlsZHJlbiIsInRleHQiXSwibWFwcGluZ3MiOiJBQUNJQSxFQUFFLGFBQWFDLEdBQUcsUUFBUyxXQUN2QkQsRUFBRUUsTUFBTUMsU0FBU0MsT0FDakJKLEVBQUUsV0FBV0ssU0FHakJMLEVBQUUsU0FBU0MsR0FBRyxRQUFTLFdBQ25CRCxFQUFFRSxNQUFNSSxRQUFRLFdBQVdGLE9BQzNCSixFQUFFLFVBQVVLLFNBR2hCTCxFQUFFLFNBQVNDLEdBQUcsYUFBYSxXQUN2QkQsRUFBRUUsTUFBTUssU0FBUyxRQUFRQyxLQUFLIiwiZmlsZSI6InBlcnNvbmFsQ2VudGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiKGZ1bmN0aW9uICgpIHtcclxuICAgICQoJy5jdXN0b21lcicpLm9uKCdjbGljaycsIGZ1bmN0aW9uICgpIHtcclxuICAgICAgICAkKHRoaXMpLnBhcmVudCgpLmhpZGUoKTtcclxuICAgICAgICAkKCcub2Rlci14Jykuc2hvdygpO1xyXG4gICAgfSlcclxuXHJcbiAgICAkKCcuYnRuYicpLm9uKCdjbGljaycsIGZ1bmN0aW9uICgpIHtcclxuICAgICAgICAkKHRoaXMpLnBhcmVudHMoJy5vZGVyLXgnKS5oaWRlKCk7XHJcbiAgICAgICAgJCgnLmJveC1mJykuc2hvdygpXHJcbiAgICB9KVxyXG4gICAgLy/ngrnlh7vnrb7liLDml7bmloflrZfmjaLmiJDlt7Lnrb7liLBcclxuICAgICQoJy5zaWduJykub24oJ3RvdWNoc3RhcnQnLGZ1bmN0aW9uKCl7XHJcbiAgICAgICAgJCh0aGlzKS5jaGlsZHJlbignc3BhbicpLnRleHQoJ+W3suetvuWIsCcpXHJcbiAgICB9KVxyXG5cclxufSgpKSJdfQ==
