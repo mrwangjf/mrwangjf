@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/flexible.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/dsjgkds.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="yinyue"></div>        
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="295017.jpg" alt="" class="ani img2" swiper-animate-effect="fghgfh" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+               <img src="img/295017.jpg" alt="" class="ani img1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
+                <div class="ani binj" swiper-animate-effect="dfgrtyt" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
+            </div>
+            <div class="swiper-slide">
+               <img src="img/295017.jpg" alt="" class="ani img1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                
+            </div>
+            <div class="swiper-slide">
+               <img src="img/295017.jpg" alt="" class="ani img1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                 
+            </div>
+        </div>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate.min.js"></script>
+    <script>
+    (function(){
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: "vertical",
+            // pagination: '.swiper-pagination',
+            // paginationType: 'progress',
+            // paginationProgressRender: function (swiper, progressbarClass) {
+            //     console.log(progressbarClass)
+            //     return '<span class="' + progressbarClass + '"></span>';
+            // },
+            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素 
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
+        })
+    }())
+    </script>
+</body>
+</html>
