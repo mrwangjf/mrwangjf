@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="./js/flexible.js"></script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./font/iconfont.css">
+	<link rel="stylesheet" href="./css/buc.css">
+</head>
+<body>
+	<!--  下载APP-->
+	<div class="buc-download">
+		<span class="download-error"></span>
+		<a href="download.zip" class="download-box">
+			<div class="download-fl">
+				<div class="download-font">
+					<i class="app-logo"></i>
+					<p class="app-font">下载飞牛APP</br>
+						新人领取<em>68</em>元大礼包</p>
+				</div>
+			</div>
+			<div class="download-fr">立即下载</div>
+		</a>
+	</div>	
+	<!--购物车的顶部导航 -->
+	<div class="cart-top">
+		<i class="iconfont prev icon-fanhui1"></i>
+		<h1>购物车</h1>
+		<i class="iconfont menu icon-caidan1"></i>
+	</div>
+	<div class="top-nav">
+		<a href="index.html">
+			<i class="item1 item"></i>
+			<span>首页</span>
+		</a>
+		<a href="Commodity.html">
+			<i class="item2 item"></i>
+			<span>商品分类</span>
+		</a>
+		<a href="cart.html" class="active">
+			<i class="item3 item"></i>
+			<span>购物车</span>
+		</a>
+		<a href="personalCenter.html">
+			<i class="item4 item"></i>
+			<span>我的账户</span>
+		</a>
+	</div>
+	<!-- loading动画 -->
+	<div class="duc-loading hided">
+		<span class="duc-loading-wh">
+			<em class="loading-animate duc-loading-wh">
+			</em>
+			<img src="./images/buc/loading_txt.png" alt="">
+		</span>
+		<i class="loading-font">正在努力加载...</i>
+	</div>
+	<!-- 返回顶部和fixedbtn图标 -->
+	<ul class="duc-fixedbtn hided">
+		<li class="fixedbtn-list hided">
+			<a href="javascript:;" class="fixedbtn-link">
+				<i class="iconfont icon-search fixedbtn-iconfont"></i>
+			</a>
+		</li>
+		<li class="fixedbtn-list hided">
+			<a href="index.html" class="fixedbtn-link">
+				<i class="iconfont icon-shouye1 fixedbtn-iconfont"></i>
+			</a>
+		</li>
+		<li class="fixedbtn-list hided">
+			<a href="zuji.html" class="fixedbtn-link">
+				<i class="iconfont icon-jiaoya fixedbtn-iconfont"></i>
+			</a>
+		</li>
+		<li class="fixedbtn-list hided">
+			<a href="cart.html" class="fixedbtn-link">
+				<i class="iconfont icon-gouwuche fixedbtn-iconfont"></i>
+				<d class="fixedbtn-number hided">0</d>
+			</a>
+		</li>
+		<li class="fixedbtn-list hided buc-scroll-dip">
+			<a href="javascript:;" class="fixedbtn-link buc-scroll">
+				<i class="iconfont icon-up fixedbtn-iconfont"></i>
+			</a>
+		</li>
+	</ul>
+	<!-- 尾部 -->
+	<div class="buc-foot hided">
+		<div class="foot-type">
+			<a href="javascript:;" class="foot-link clr">触屏版</a>
+			<a href="javascript:;" class="foot-link">电脑版</a>
+			<a href="javascript:;" class="foot-link hided">退出</a>
+		</div>
+		<p>Copyright © 2013-2016 飞牛网,ALL Rights Reserved.</p>
+		<p>沪ICP备13025776号 营业执照</p>
+	</div>
+	<!-- 尾部提示框 -->
+	<div class="buc-foot-filex">
+		<div class="filex-box">
+			<p class="box-title">提示</p>
+			<p class="box-font">确定退出当前账户吗？</p>
+			<div class="buc-option">
+				<a href="javascript:;" class="buc-option-error">取消</a>
+				<a href="javascript:;" class="buc-option-Determine">确定</a>
+			</div>
+		</div>
+	</div>
+	<!-- 判断确定提示框 -->
+	<div class="filex-box-error">退出失败</div>
+	<script src="./js/zepto.js"></script>
+	<script src="./js/buc.js"></script>
+	<script src="./js/zepto-fx.js"></script>
+	<script src="./js/zepto-touch.js"></script>
+	<script src="./js/fx_methods.js"></script>
+</body>
+</html>

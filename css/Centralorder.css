@@ -1,0 +1,17 @@
+body { background: #eeeeee; }
+
+.hide { display: none !important; }
+
+.Centr-list-wh { width: 25%; }
+
+.Centr-ader-nav { -webkit-box-pack: justify; -webkit-justify-content: space-between; -moz-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background: #fff; }
+
+.Centr-ader-nav #type { font-size: .6rem; }
+
+.Centr-ader-nav #prev { height: 1rem; width: 1rem; font-size: .5rem; }
+
+.Centr-ader-nav #h1 { width: 70%; }
+
+.Centr-ader-nav .icon-sousuo { font-size: .38rem; width: 0.38rem; }
+
+.Centr-top-nav { background: #fff; height: 1.18rem; }

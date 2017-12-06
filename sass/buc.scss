@@ -1,0 +1,479 @@
+
+// top-nav 顶部导航（首页、商品分类，购物车、我的账户）
+// author:王震
+    .cart-top {
+        height: 0.88rem;
+        line-height: 0.88rem;
+        text-align: center;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        i {
+            width: 0.80rem;
+            color:#333;            
+        }
+        a { 
+            width: 0.8rem;
+            .prev {
+                font-size: 0.34rem;
+                color:#333;
+            }
+        }
+        h1 {
+            -webkit-box-flex:1;
+            -webkit-flex:1;
+               -moz-box-flex:1;
+                -ms-flex:1;
+                    flex:1;
+            font-size: 0.36rem;
+            color:#333;
+        }
+        .menu {
+           font-size: 0.4rem;
+           &.active {
+                color: rgb(194, 0, 83);
+           }
+        }
+    }
+    .top-nav {
+        display: none;
+        height: 1.02rem;
+        padding: 0.16rem 0 0;
+        font-size: 0.24rem;
+        &.active {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+        a {
+            width: 25%;
+            height: 0.86rem;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+               -moz-box-orient: vertical;
+               -moz-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-justify-content: space-around;
+                -ms-flex-pack: distribute;
+                    justify-content: space-around;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            .item {
+                width: 0.48rem;
+                height: 0.48rem;
+            }
+            .item1 {
+                background: url(../images/buc/topnav_icon.png) 0 -0.47rem / cover; 
+            }
+            .item2 {
+                background: url(../images/buc/topnav_icon.png) 0 -1.35rem / cover; 
+            }
+            .item3 {
+                background: url(../images/buc/topnav_icon.png) 0 -2.27rem / cover; 
+            }
+            .item4 {
+                background: url(../images/buc/topnav_icon.png) 0 -3.21rem / cover; 
+            }
+            span {
+                font-size:0.28rem;
+                color: #333;
+                font-size:.28rem;
+            }
+            &.active {
+                span {
+                    color: rgb(194, 0, 83);
+                }
+                .item1 {
+                    background: url(../images/buc/topnav_icon.png) 0 0rem / cover; 
+                }
+                .item2 {
+                    background: url(../images/buc/topnav_icon.png) 0 -0.90rem / cover;                    
+                }
+                .item3 {
+                    background: url(../images/buc/topnav_icon.png) 0 -1.80rem / cover;                    
+                }
+                .item4 {
+                    background: url(../images/buc/topnav_icon.png) 0 -2.72rem / cover;                                        
+                }
+            }
+        }
+    }
+//描述：这是尾部
+//编辑：王学丰
+    .buc-foot{
+        width: 100%;
+        height: 1.92rem;
+        padding-bottom:.24rem;
+        color:#333;
+        font-size:.24rem;
+        .foot-type{
+            height: 0.92rem;
+            line-height: .92rem;
+            text-align: center;
+            .foot-link{
+                color:#333;
+                padding:0rem .24rem;
+                font-size:.24rem;
+            }
+            .clr{
+                color:#ef7561;
+            }
+        }
+        p{
+            height: .4rem;
+            line-height: .4rem;
+            text-align: center;
+        }
+    }
+    .buc-foot-filex{
+        background: rgba(0,0,0,.4);
+        position:fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        z-index:100;
+        top:0;
+        left:0;
+        .filex-box{
+            width: 6rem;
+            height: 3.46rem;
+            background: #fff;
+            display: none;
+            -webkit-border-radius:.12rem;
+               -moz-border-radius:.12rem;
+                    border-radius:.12rem;
+            position:relative;
+            top:40%;
+            left:10%;
+            font-size:.32rem;
+            text-align: center;
+            .box-title{
+                padding:.52rem 0rem;
+                color:#333;
+            }
+            .box-font{
+               padding:.22rem 0rem;
+               margin-bottom:.5rem;
+            }
+
+        }
+    }
+    .buc-option{
+        border-top:.02rem solid #d5d5d5;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-align:center;
+        -webkit-align-items:center;
+           -moz-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        -webkit-box-pack:justify;
+        -webkit-justify-content:space-between;
+           -moz-box-pack:justify;
+            -ms-flex-pack:justify;
+                justify-content:space-between;
+        height: .92rem;
+        background: #d5d5d5;
+         -webkit-border-radius:0rem 0rem .1rem .1rem;
+            -moz-border-radius:0rem 0rem .1rem .1rem;
+                 border-radius:0rem 0rem .1rem .1rem;
+        a{
+            text-align: center;
+            height: 100%;
+            width: 49.6%;
+            line-height: .88rem;
+            color:#007aff;
+            background: #fff;
+            -webkit-border-radius:0rem 0rem 0rem .1rem;
+               -moz-border-radius:0rem 0rem 0rem .1rem;
+                    border-radius:0rem 0rem 0rem .1rem;
+        }
+        a:nth-child(2){
+            -webkit-border-radius:0rem 0rem .1rem 0rem;
+               -moz-border-radius:0rem 0rem .1rem 0rem;
+                    border-radius:0rem 0rem .1rem 0rem;
+        }
+
+    }
+    .filex-box-error{
+        display: none;
+        position:fixed;
+        top:50%;
+        left:38%;
+        width: 2.28rem;
+        z-index: 50;
+        height: 1.72rem;
+        line-height: 1.72rem;
+        background: rgba(0,0,0,.9);
+        -webkit-border-radius:.2rem;
+           -moz-border-radius:.2rem;
+                border-radius:.2rem;
+        font-size:.32rem;
+        text-align: center;
+        color:#fff;
+
+    }
+//描述：loading动画
+//编辑：王学丰
+    .duc-loading{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:flex;
+        padding:.2rem 0rem;
+        -webkit-flex-wrap:nowrap;
+            -ms-flex-wrap:nowrap;
+                flex-wrap:nowrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align:center;
+        -webkit-align-items:center;
+           -moz-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        span{
+            position: relative;
+             margin:0rem .1rem;
+        }
+        em{
+            background: url('../images/buc/loading.png') no-repeat center/cover;
+            display: block;
+        }
+        @-webkit-keyframes rotate{
+            from{
+                -webkit-transform:rotateZ(0deg);
+                        transform:rotateZ(0deg)
+            }
+            to{
+                -webkit-transform:rotateZ(360deg);
+                        transform:rotateZ(360deg)                
+            }
+        }
+        @-moz-keyframes rotate{
+            from{
+                -moz-transform:rotateZ(0deg);
+                     transform:rotateZ(0deg)
+            }
+            to{
+                -moz-transform:rotateZ(360deg);
+                     transform:rotateZ(360deg)                
+            }
+        }
+        @-o-keyframes rotate{
+            from{
+                -o-transform:rotateZ(0deg);
+                   transform:rotateZ(0deg)
+            }
+            to{
+                -o-transform:rotateZ(360deg);
+                   transform:rotateZ(360deg)                
+            }
+        }
+        @keyframes rotate{
+            from{
+                -webkit-transform:rotateZ(0deg);
+                   -moz-transform:rotateZ(0deg);
+                     -o-transform:rotateZ(0deg);
+                        transform:rotateZ(0deg)
+            }
+            to{
+                -webkit-transform:rotateZ(360deg);
+                   -moz-transform:rotateZ(360deg);
+                     -o-transform:rotateZ(360deg);
+                        transform:rotateZ(360deg)                
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0rem;
+            left:0rem;
+        }
+        .loading-font{
+            font-size:.28rem;
+            color:#333;
+        }
+    }
+    .loading-animate{
+        -webkit-animation:rotate .5s infinite linear;
+           -moz-animation:rotate .5s infinite linear;
+             -o-animation:rotate .5s infinite linear;
+                animation:rotate .5s infinite linear;
+        //动画曲线设置
+    }
+    //可以根据需要改变大小
+    .duc-loading-wh{
+        width: .44rem;
+        height: .44rem;
+    }
+//描述：返回顶部和fixedbtn图标
+//编辑：王学丰
+    .duc-fixedbtn{
+        position:fixed;
+        right:.4rem;
+        bottom:1rem;
+        .fixedbtn-list{
+            position:relative;
+            left:0rem;
+            top:0rem;
+            height: 0.88rem;
+            width: 0.72rem;
+            padding:.1rem 0rem;
+        }
+    }
+    .fixedbtn-link{
+        background: #fff;
+        -webkit-border-radius:50%;
+           -moz-border-radius:50%;
+                border-radius:50%;
+        border:.02rem solid #cfcfcf;
+        text-align: center;
+        height: 0.68rem;
+        display: block;
+        line-height: .68rem;
+        width: 100%;
+        .fixedbtn-iconfont{
+            font-size:.32rem;
+            font-weight:900;
+        }
+    }
+    .fixedbtn-number{
+        position: absolute;
+        right: .01rem;
+        top: .06rem;
+        min-width: .37rem;
+        height: .37rem;
+        line-height: .37rem;
+        display: block;
+        background: #c70034;
+        font-size: .18rem;
+        -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+                border-radius: 50%;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+    }
+//描述：下载app
+//编辑：王学丰
+    .buc-download{
+        position:relative;
+        top:0rem;
+        left:0rem;
+        width: 100%;
+        height: 1rem;
+        .download-box{
+            width: 100%;
+            display:-webkit-box;
+            display:-webkit-flex;
+            display:-moz-box;
+            display:-ms-flexbox;
+            display:flex;
+            -webkit-flex-wrap:nowrap;
+                -ms-flex-wrap:nowrap;
+                    flex-wrap:nowrap;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+    }
+    .download-fl{
+        width: 67.5%;
+        padding-left:.5rem;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display:flex;
+        height: 1rem;
+        -webkit-flex-wrap:nowrap;
+            -ms-flex-wrap:nowrap;
+                flex-wrap:nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: #000;
+        .download-font{
+            padding:.16rem 0rem .14rem;
+            display:-webkit-box;
+            display:-webkit-flex;
+            display:-moz-box;
+            display:-ms-flexbox;
+            display:flex;
+            -webkit-flex-wrap:nowrap;
+                -ms-flex-wrap:nowrap;
+                    flex-wrap:nowrap;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            .app-logo{
+                width: 0.7rem;
+                height: 0.7rem;
+                margin:0rem .2rem;
+                background: url('../images/buc/app_logo.png') no-repeat center/cover;
+            }
+            .app-font{
+                font-size:.24rem;
+                color:#fff;
+                line-height: .38rem;
+
+            }
+        }
+    }
+    .download-fr{
+        width: 32.5%;
+        background: #c70034;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        font-size:.24rem;
+        color:#fff;
+    }
+    .download-error{
+        position: absolute;
+        z-index: 1;
+        top:.4rem;
+        left:.2rem;
+        width: 0.3rem;
+        height: 0.3rem;
+        background: url('../images/buc/closen2.png') no-repeat center/cover;
+    }
+
+
+//这是放在后面不要动他 还有谁要是写的有display:block;的样式就不要在用嵌套了 直接写到外面
+.hided{
+    display:none;
+}

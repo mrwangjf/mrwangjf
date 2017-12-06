@@ -1,0 +1,7 @@
+.Doubt-Return { font-size: .4rem; font-weight: 800; }
+
+.Doubt-content { border-top: .02rem solid #d5d5d5; padding: .32rem; display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; max-height: 100%; }
+
+.Doubt-content li { width: 100%; font-size: 0.28rem; color: #333; padding: .26rem 0rem; line-height: .38rem; height: 1.2rem; border-bottom: .02rem solid #eeeeee; }
+
+.Doubt-content li .integral { color: #0e39fe; }

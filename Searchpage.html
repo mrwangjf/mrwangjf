@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/buc.css">
+    <link rel="stylesheet" href="./css/Searchpage.css">
+</head>
+
+<body>
+    <!--  下载APP-->
+    <div class="buc-download z-indx">
+        <span class="download-error"></span>
+        <a href="download.zip" class="download-box">
+            <div class="download-fl">
+                <div class="download-font">
+                    <i class="app-logo"></i>
+                    <p class="app-font">下载飞牛APP</br>
+                        新人领取<em>68</em>元大礼包</p>
+                </div>
+            </div>
+            <div class="download-fr">立即下载</div>
+        </a>
+    </div>	
+    <!-- 头部 -->
+        <!-- 头部导航 -->
+        <div class="cart-top seach-nav z-indx">
+            <a href="cow-flying.html" class="iconfont icon-fanhui1 seach-Return"></a>
+            <div class="seach-box">
+                <button class="seach-btn iconfont icon-search"></button>
+                <input type="text" class="seach-text" value="雪地鞋">
+            </div>
+            <span class="seach-font">筛选</span>
+            <i class="iconfont menu icon-caidan1 seach-Return"></i>
+        </div>
+        <div class="seach-bor top-nav Centr-top-nav z-indx">
+            <a href="index.html">
+                <i class="item1 item"></i>
+                <span>首页</span>
+            </a>
+            <a href="Commodity.html">
+                <i class="item2 item"></i>
+                <span>商品分类</span>
+            </a>
+            <a href="cart.html" class="active">
+                <i class="item3 item"></i>
+                <span>购物车</span>
+            </a>
+            <a href="personalCenter.html">
+                <i class="item4 item"></i>
+                <span>我的账户</span>
+            </a>
+        </div>
+        <!-- 类型nav -->
+        <div class="type-nav z-indx">
+            <ul class="type-nav-box">
+                <li class="type-nav-list type-font-active" id="type-nav-list1">
+                    <span class="type-font font-text1">综合</span>
+                    <i class="type-icon icon-f11 iconfont type-icon-active"></i>
+                    <i class="type-icon icon-xiajiantou iconfont "></i>
+                </li>
+                <li class="type-nav-list" id="type-nav-list4">
+                    <span class="type-font">销量</span>
+                </li>
+                <li class="type-nav-list" id="type-nav-list2">
+                    <span class="type-font">价格</span>
+                    <i class="type-icon icon-f11 iconfont type-icon-active"></i>
+                    <i class="type-icon icon-xiajiantou iconfont "></i>
+                </li>
+                <li class="type-nav-last2" id="type-nav-list3">
+                    <span class="type-font">促销</span>
+                    <i class="type-bg"></i>
+                </li>
+                <li class="type-nav-last">
+                    <i class="type-icon-sort icon-viewgallery iconfont"></i>
+                    <i class="type-icon-sort icon-viewlist iconfont type-icon-active"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="type-list-child">
+            <div class="search-nav-blick">
+                <p class="list-font-blick blick-acrive">
+                    <span>综合</span>
+                    <span class="iconfont icon-right icon-right-block"></span>
+                </p>
+                <p class="list-font-blick">
+                    <span>新品</span>
+                    <span class="iconfont icon-right icon-right-block"></span>
+                </p>
+                <p class="list-font-blick">
+                    <span>评论</span>
+                    <span class="iconfont icon-right icon-right-block"></span>
+                </p>
+            </div>
+        </div>
+        <!--选项 -->
+        <div class="sech-option">
+            <a href="javascript:;" class="option-list1">自营</a>
+            <div class="option-box">
+                <a href="javascript:;" class="option-list">品牌</a>
+                <a href="javascript:;" class="option-list">风格</a>
+                <a href="javascript:;" class="option-list">闭合方式</a>
+            </div>
+        </div>
+        <!-- 菜单包装 -->
+      <!--   <div class="menu-list-child">
+            <div class="menu_wrapper">
+                <ul class="menu-box">
+                    <li class="menu-list brand-menu menu-li-ac">
+                        <p class="menu-item menu-item-active">全部
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                    </li>
+                    <li class="menu-list style-menu">
+                        <p class="menu-item menu-item-active">全部
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">嘉禾
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                    </li>
+                    <li class="menu-list Closed-menu">
+                        <p class="menu-item menu-item-active">全部
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">底裤
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                        <p class="menu-item">奥拼
+                            <i class="iconfont icon-right Correct Correct-active"></i>
+                        </p>
+                    </li>
+                </ul>
+                <div class="w_kinds_btn">
+                    <a href="javascript:;" class="kinds-reset reset">重置</a>
+                    <a href="javascript:;" class="kinds-reset confirm">确定</a>
+                </div>
+            </div>
+        </div> -->
+    <!-- 内容 -->
+        <!-- 筛选 -->
+        <div class="seach-screen">
+            <div class="screen-chlid">
+                <div class="screen-te tete">
+                    <span class="screen-teerror">取消</span>
+                    <p class="screen-title">筛选</p>
+                </div>
+                <div class="screen-w">
+                    <div class="w-address sddr">
+                        <em>配送至</em>
+                        <span class="w-color">上海上海是宝山区<i class="iconfont icon-more "></i></span>
+                    </div>
+                    <div class="w-bor-top w-content">
+                        <div class="w_list">
+                            <a href="javascript:;" class="w-list-link">自营</a>
+                            <a href="javascript:;" class="w-list-link">商家</a>
+                            <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        </div>
+                        <div class="w-number">
+                            <span class="w-font_title w-mrg">价格区间：</span>
+                            <input type="text" placeholder="最低价" class="w-list-link w-bd"> 
+                            <i></i>
+                            <input type="text" placeholder="最高价" class="w-list-link w-bd">
+                        </div>
+                    </div>
+                    <div class="w-address">
+                        <em>分类</em>
+                        <span>
+                            <i class="iconfont icon-more "></i>
+                        </span>
+                    </div>
+                    <div class="w-address w-bor-top">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                    <div class="w-address">
+                        <em>品牌</em>
+                        <span>全部
+                            <i class="iconfont icon-moreunfold"></i>
+                        </span>
+                    </div>
+                    <div class="w-dip w-address w_list">
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                        <a href="javascript:;" class="w-list-link">自营</a>
+                        <a href="javascript:;" class="w-list-link">商家</a>
+                        <a href="javascript:;" class="w-list-link">仅看有货</a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen-sddr screen-chlid">
+                <div class="sddr-te screen-sddr-item tete">
+                    <i class="iconfont icon-back"></i>
+                    <span class="screen-title sddr-foint">筛选</span>
+                </div>
+                <ul class="screen-w screen-sddr-box">
+                    <li class="screen-sddr-item screen-sddr-list menu-sddr-active">
+                        四川
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="screen-sddr screen-chlid">
+                <div class="sddr-te screen-sddr-item tete">
+                    <i class="iconfont icon-back"></i>
+                    <span class="screen-title sddr-foint">筛选</span>
+                </div>
+                <ul class="screen-w screen-sddr-box">
+                    <li class="screen-sddr-item screen-sddr-list menu-sddr-active">
+                        四川
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                    <li class="screen-sddr-item screen-sddr-list ">
+                        广州
+                        <i class="iconfont icon-right Correct sddr-active"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 商店类品-->
+        <div class="wrapper-box">
+            <ul class="list_wrapper">
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评<em>100</em>%</span>
+                                <span>评价<em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+                <li class="wrapper-item wrapper-item-ac">
+                    <a href="Detailspage.html" class="wrapper-item-list wer-active-item">
+                        <div class="item-list-img wer-active">
+                            <i class="new-dpi"></i>
+                        </div>
+                        <div class="item-list-font wer-active2">
+                            <h3 class="item-title">
+                                <span class="title-type">商城</span>
+                                CNG男鞋女鞋鞋冬季短筒女士雪地靴短靴冬季加绒加厚学生女雪地平底中筒保暖防滑棉鞋情侣鞋
+                            </h3>
+                            <p class="wrapper-number">
+                                <em>￥</em>
+                                <span>39</span>
+                                <em>.8</em>
+                                <b>￥23.8</b>
+                            </p>
+                            <p class="wrapper-Evaluation">
+                                <span>好评
+                                    <em>100</em>%</span>
+                                <span>评价
+                                    <em>134</em>条</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="wrapper-cart iconfont icon-gouwuche"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- loading动画 -->
+        <div class="duc-loading hided">
+            <span class="duc-loading-wh">
+                <em class="loading-animate duc-loading-wh">
+                </em>
+                <img src="./images/buc/loading_txt.png" alt="">
+            </span>
+            <i class="loading-font">正在努力加载...</i>
+        </div>
+        <!-- 返回顶部和fixedbtn图标 -->
+        <ul class="duc-fixedbtn">
+            <li class="fixedbtn-list hided z-indx2">
+                <a href="javascript:;" class="fixedbtn-link">
+                    <i class="iconfont icon-search fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list z-indx2">
+                <a href="index.html" class="fixedbtn-link">
+                    <i class="iconfont icon-shouye1 fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided z-indx2">
+                <a href="zuji.html" class="fixedbtn-link">
+                    <i class="iconfont icon-jiaoya fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list z-indx2">
+                <a href="cart.html" class="fixedbtn-link">
+                    <i class="iconfont icon-gouwuche fixedbtn-iconfont"></i>
+                    <d class="fixedbtn-number">0</d>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided buc-scroll-dip z-indx2">
+                <a href="javascript:;" class="fixedbtn-link buc-scroll">
+                    <i class="iconfont icon-up fixedbtn-iconfont"></i>
+                </a>
+            </li>
+        </ul>
+    <!-- 尾部 -->
+    <div class="buc-foot hided">
+        <div class="foot-type">
+            <a href="javascript:;" class="foot-link clr">触屏版</a>
+            <a href="javascript:;" class="foot-link">电脑版</a>
+            <a href="javascript:;" class="foot-link hide">退出</a>
+        </div>
+        <p>Copyright © 2013-2016 飞牛网,ALL Rights Reserved.</p>
+        <p>沪ICP备13025776号 营业执照</p>
+    </div>
+    <!-- 尾部提示框 -->
+    <div class="buc-foot-filex ">
+        <div class="filex-box">
+            <p class="box-title">提示</p>
+            <p class="box-font">确定退出当前账户吗？</p>
+            <div class="buc-option">
+                <a href="javascript:;" class="buc-option-error">取消</a>
+                <a href="javascript:;" class="buc-option-Determine">确定</a>
+            </div>
+        </div>
+    </div>
+    <!-- 判断确定提示框 -->
+<script src="./js/zepto.js"></script>
+<script src="./js/buc.js"></script>
+<script src="./js/zepto-fx.js"></script>
+<script src="./js/fx_methods.js"></script>
+<script src="./js/zepto-touch.js"></script>
+<script src="./js/Searchpage.js"></script>
+<script src="./js//slideTogglt.js"></script>
+</body>
+
+</html>

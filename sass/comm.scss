@@ -1,0 +1,177 @@
+.box-f {
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .topbox {
+    height: 1rem;
+    .s-box {
+      width: 40%;
+      height: 1rem;
+      line-height: 1rem;
+      margin-left: 2.4rem;
+      a {
+        transition: all .2s;
+        display: inline-block;
+        width: auto;
+        font-size: .32rem;
+        color: #333;
+        margin-left: 20px;
+        padding: 0 .2rem;
+        &:last-child {
+          margin-left: 1.6rem;
+        }
+        &.active1 {
+          border-bottom: 2px solid #d7063b;
+          color: #d7063b;
+        }
+      }
+    }
+  }
+}
+
+.sele-edit {
+  vertical-align: middle;
+  .icont {
+    font-size: .32rem;
+    position: absolute;
+    right: 1.1rem;
+  }
+  span {
+    font-size: .28rem;
+    color: #333;
+    padding-right: .24rem;
+  }
+}
+
+.pic-box {
+  transition: all .2s;
+  margin-top: .88rem;
+  padding: {
+    top: 2rem;
+    bottom: .2rem;
+  }
+  .placeh-pic {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .zan {
+    margin: .6rem 0;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: .36rem;
+    line-height: .48rem;
+  }
+  .seckill {
+    display: block;
+    background-color: #d7063b;
+    color: #fff;
+    line-height: .8rem;
+    font-size: .42rem;
+    text-align: center;
+    border-radius: .06rem;
+    margin: .34rem .2rem;
+  }
+}
+
+.pic-box {
+  display: none;
+}
+
+.act-content {
+  display: block;
+}
+
+//描述：返回顶部和fixedbtn图标
+//编辑：王学丰
+.duc-fixedbtn {
+  position: fixed;
+  right: .2rem;
+  bottom: .2rem;
+  .fixedbtn-list {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    height: 0.88rem;
+    width: 0.72rem;
+    padding: .1rem 0rem;
+  }
+}
+
+.fixedbtn-link {
+  background: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: .02rem solid #cfcfcf;
+  text-align: center;
+  height: 0.68rem;
+  display: block;
+  line-height: .68rem;
+  width: 100%;
+  .fixedbtn-iconfont {
+    font-size: .32rem;
+    font-weight: 900;
+  }
+}
+
+.fixedbtn-number {
+  position: absolute;
+  right: .01rem;
+  top: .06rem;
+  min-width: .37rem;
+  height: .37rem;
+  line-height: .37rem;
+  display: block;
+  background: #c70034;
+  font-size: .18rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.none-d {
+  height: 2rem;
+  background: #eee;
+  padding:0 0 5rem 0;
+  display: none;
+  .img-boxa {
+    width: 1.05rem;
+    height: 1.1rem;
+    margin: .3rem auto .1rem;
+    position: relative;
+ 
+    &::before {
+      content: '';
+      width: 1rem;
+      height: 1px;
+      background: #999;
+      position: absolute;
+      left: -1rem;
+      top: 60%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &:after {
+      content: "";
+      width: 1rem;
+      height: 1px;
+      background: #999;
+      position: absolute;
+      right: -1rem;
+      top: 60%;
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
+.hided{
+  display: none;
+}

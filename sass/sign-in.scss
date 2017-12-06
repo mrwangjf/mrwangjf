@@ -1,0 +1,56 @@
+.icon-fanhui1{
+    font-size: .4rem
+}
+.cart-top .menu{
+    font-size: .6rem;
+}
+.sign-in{
+    background: url("../images/sign-in/1.jpg") no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-left{
+    p{
+        margin-left: .24rem;
+        font-size: .28rem;
+        color: #fff;
+        span{
+            color: #f7e360;
+        }
+    }
+    p:first-child{
+        padding-top: .3rem;
+        padding-bottom: .32rem;
+    }
+    p:nth-child(3){
+        color: #f7e360;
+        font-size: .36rem;
+        padding-top: .14rem;
+        margin-bottom: .2rem;
+    }
+    p:last-child{
+        font-size: .24rem;
+        margin-bottom: .3rem;
+        position: relative;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 52%;
+            height: .02rem;
+            left: 0;
+            bottom: -.08rem;
+            background: #fff;
+        }
+    }
+}
+
+.sign-right{
+    background: url("../images/sign-in/2.png") no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    color: #c70034;
+    text-align: center;
+    margin: .5rem .68rem .4rem 0;
+    background-size: cover;
+}

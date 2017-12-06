@@ -1,0 +1,29 @@
+body { background: #f4f4f4; }
+
+.orderr-Return { font-size: .4rem; font-weight: 800; }
+
+.orderr-Doubt { font-size: .48rem; }
+
+.Orderr-wh { width: 50%; }
+
+.Orderr-box { height: 7.7rem; }
+
+.loading-box { padding: .7rem .28rem; }
+
+.colr { background: #f4f4f4; }
+
+.Orderr-loading { top: -.5rem; left: 1.2rem; margin: 0rem !important; }
+
+.Orderr-Line { position: absolute; height: .02rem; background: #d5d5d5; }
+
+.Orderr-font, .nomoregoods-font { width: 2rem; font-size: .24rem !important; text-align: center; background: #f4f4f4; }
+
+.nomoregoods-font { background: #eee; }
+
+.Line-wh { width: 90%; z-index: -1; }
+
+.nomoregoods-wh { width: 50%; top: .6rem; left: 2rem; height: .03rem; }
+
+.Orderr-nomoregoods { height: 2rem; width: 100%; text-align: center; position: relative; background: #eee; display: none; }
+
+.Orderr-nomoregoods .nomoregoods-top { width: 1.05rem; height: 1.1rem; position: relative; margin: 0rem auto .2rem; z-index: 1; background: #eee; }

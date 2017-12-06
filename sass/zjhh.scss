@@ -1,0 +1,165 @@
+
+$c2:#fff;
+$c3:#333;
+$w2:100%;
+$list:0rem .04rem .32rem;
+
+// 弹性盒子
+@mixin disa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+// 换行
+@mixin disb {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+//主轴转副轴 在副轴上居中 主轴上两端对齐
+@mixin disc {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+//自动扩展
+@mixin disd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+//换行后在副轴上两端对齐
+@mixin dise {
+  align-content: space-between;
+}
+/* 飞牛客服 */
+.customer{
+  position: absolute;
+  width:$w2;
+  height:1.52rem;
+  background-color:$c2;
+li{
+    display: block;
+   @include disa;
+   align-items: center;
+    width:$w2;
+    height:1.52rem;
+    padding:.12rem 0 .24rem .24rem;
+   
+   @at-root .item-right{
+     
+      height:100%;
+      margin-left:.36rem;
+      padding-right:.24rem;
+     padding-bottom:.06rem;
+      border-bottom:1px solid #d5d5d5;
+      @include disa;
+      @include disb;
+      @include dise;
+      @include disd;
+      span{
+        font-size: .32rem;
+        color:#333;
+      }
+       .item-text {
+         color: #999;
+       }
+       .item-text-box{
+          max-width:5rem;
+          height:.44rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          padding: .1rem .24rem .28rem 0;
+       }
+       
+    }
+  }
+}
+ .item-top {
+   width:100%;
+   @include disa;
+   justify-content: space-between;
+   padding-top:.24rem;
+ }
+ .img-box img{
+   width: .98rem;
+  height:.98rem;
+ }
+
+ /*  服务 */
+ .oder-x{
+   display: none;
+ }
+.server{
+    
+    background-color:$c2;
+    border-bottom: 1px solid #d5d5d5;
+  .list-cd a{
+    display: block;
+    position: relative;
+    height: 1.3rem;
+    width:$w2;
+    padding: 0 .24rem;
+    @include disa;
+    align-items: center;
+     &::after {
+       content: "";
+       position: absolute;
+       right:.3rem;
+       top:40%;
+       height:.24rem;
+       width:.24rem;
+       border-left:1px solid #888;
+       border-bottom:1px solid #888;
+       transform: rotate(-135deg);
+     }
+    img{
+      width:.8rem;
+      height:.8rem;
+    }
+    @at-root .order{
+        @include disd;
+        margin-left:.24rem;
+        padding:nth($list, 3) 0;
+        border-bottom:1px solid #d5d5d5;
+        .text-d{
+          font-size: nth($list,3);
+          color:$c3;
+        }
+        .text-c{
+          font-size: .24rem;
+          padding-top:.08rem;
+        }
+       
+    }
+     &:last-child {
+       .order{
+         border:0;
+       }
+     }
+  }
+}
+
+

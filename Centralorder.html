@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/buc.css">
+    <link rel="stylesheet" href="./css/persoonall.css">
+    <link rel="stylesheet" href="./css/Centralorder.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+        <div class="cart-top Centr-ader-nav">
+            <a href="personalCenter.html" class="iconfont prev icon-fanhui1" id="prev"></a>
+            <h1 id="h1">个人中心</h1>
+            <i class="iconfont icon-sousuo"></i>
+            <i class="iconfont menu icon-caidan1 "id="type"></i>
+        </div>
+        <div class="top-nav Centr-top-nav">
+            <a href="index.html">
+                <i class="item1 item"></i>
+                <span>首页</span>
+            </a>
+            <a href="Commodity.html">
+                <i class="item2 item"></i>
+                <span>商品分类</span>
+            </a>
+            <a href="cart.html" class="active">
+                <i class="item3 item"></i>
+                <span>购物车</span>
+            </a>
+            <a href="personalCenter.html">
+                <i class="item4 item"></i>
+                <span>我的账户</span>
+            </a>
+        </div>
+    <!-- 内容（content） -->
+        <!-- 选项 -->
+        <div class="Centr-list">
+            <a href="javascript:;" class="Centr-list-wh Centr-list-nav Centr-list-active" id="Centr">全部订单</a>
+            <a href="javascript:;" class="Centr-list-wh Centr-list-nav" id="">待付款</a>
+            <a href="javascript:;" class="Centr-list-wh Centr-list-nav" id="">待发货</a>
+            <a href="javascript:;" class="Centr-list-wh Centr-list-nav" id="">待收货</a>
+        </div>
+        <!-- 没有订单时显示 -->
+        <div class="duc-loading hide">
+            <i class="loading-font">没有更多订单</i>
+        </div>
+        <!-- loading动画 -->
+        <div class="duc-loading hided">
+            <span class="duc-loading-wh">
+                <em class="loading-animate duc-loading-wh">
+                </em>
+                <img src="./images/buc/loading_txt.png" alt="">
+            </span>
+            <i class="loading-font">正在努力加载...</i>
+        </div>
+        <!--  ted切换-->
+        <ul class="Centr-list-ted Centr-tedbox">
+            <li class="Centr-ted-type Centr-type-active">
+                <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                <p class="Centr-list-font">您暂时还没有任何订单,快去逛逛把！</p>
+                <a href="index.html" class="Centr-ted-link hided-pseronna">去逛逛</a>
+            </li>
+            <li class="Centr-ted-type ">
+                <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                <p class="Centr-list-font">目前没有订单需要付款</p>
+                <a href="index.html" class="Centr-ted-link hided-pseronna">去逛逛</a>
+            </li>
+            <li class="Centr-ted-type">
+                <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                <p class="Centr-list-font">目前没有待发货的订单</p>
+                <a href="index.html" class="Centr-ted-link hided-pseronna">去逛逛</a>
+            </li>
+            <li class="Centr-ted-type">
+                <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                <p class="Centr-list-font">目前没有待收货的订单</p>
+                <a href="index.html" class="Centr-ted-link hided-pseronna">去逛逛</a>
+            </li>
+        </ul>
+        <!-- 订单收搜索暂无数据 -->
+        <div class="Centr-Nodata hided-pseronna">
+            <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+            <p class="Centr-list-font">牛牛收不到相关订单</p>
+        </div>
+        <!-- 返回顶部和fixedbtn图标 -->
+        <ul class="duc-fixedbtn">
+            <li class="fixedbtn-list hided">
+                <a href="javascript:;" class="fixedbtn-link">
+                    <i class="iconfont icon-search fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="index.html" class="fixedbtn-link">
+                    <i class="iconfont icon-shouye1 fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="zuji.html" class="fixedbtn-link">
+                    <i class="iconfont icon-jiaoya fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="cart.html" class="fixedbtn-link">
+                    <i class="iconfont icon-gouwuche fixedbtn-iconfont"></i>
+                    <d class="fixedbtn-number hided">0</d>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided buc-scroll-dip">
+                <a href="javascript:;" class="fixedbtn-link buc-scroll">
+                    <i class="iconfont icon-up fixedbtn-iconfont"></i>
+                </a>
+            </li>
+        </ul>
+    <!-- 尾部 -->
+        <div class="buc-foot hided">
+            <div class="foot-type">
+                <a href="javascript:;" class="foot-link clr">触屏版</a>
+                <a href="javascript:;" class="foot-link">电脑版</a>
+                <a href="javascript:;" class="foot-link hide">退出</a>
+            </div>
+            <p>Copyright © 2013-2016 飞牛网,ALL Rights Reserved.</p>
+            <p>沪ICP备13025776号 营业执照</p>
+        </div>
+    <!-- 尾部提示框 -->
+        <div class="buc-foot-filex ">
+            <div class="filex-box">
+                <p class="box-title">提示</p>
+                <p class="box-font">确定退出当前账户吗？</p>
+                <div class="buc-option">
+                    <a href="javascript:;" class="buc-option-error">取消</a>
+                    <a href="javascript:;" class="buc-option-Determine">确定</a>
+                </div>
+            </div>
+        </div>
+    <!-- 判断确定提示框 -->
+        <div class="filex-box-error">退出失败</div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/buc.js"></script>
+    <script src="./js/zepto-fx.js"></script>
+    <script src="./js/fx_methods.js"></script>
+    <script src="./js/zepto-touch.js"></script>
+    <script src="./js/persoonall.js"></script>
+</body>
+</html>

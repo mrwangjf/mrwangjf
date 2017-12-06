@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/buc.css">
+    <link rel="stylesheet" href="./css/persoonall.css">
+    <link rel="stylesheet" href="./css/Orderreview.css">    
+</head>
+<body>
+    <!-- 头部导航 -->
+        <div class="cart-top">
+            <a href="personalCenter.html" class="iconfont icon-fanhui1 orderr-Return"></a>
+            <h1 id="h1">个人中心</h1>
+            <a href="Doubt.html" class="iconfont icon-shuoming orderr-Doubt"></a>
+        </div>
+    <!-- 内容（content） -->
+        <div class="Centr-list">
+            <a href="javascript:;" class="Orderr-wh Centr-list-nav Centr-list-active" id="Centr">待评论<i>(0)</i></a>
+            <a href="javascript:;" class="Orderr-wh Centr-list-nav" id="">已评论<i>(0)</i></a>
+        </div>
+        <!--  ted切换-->
+        <div class="Orderr-box clearfix">
+            <ul class="Centr-list-ted colr Orderr-box">
+                <li class="Centr-ted-type Centr-type-active">
+                    <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                    <p class="Centr-list-font">请，还没有待评论内容<br>买一个来看看</p>
+                    <a href="index.html" class="Centr-ted-link">逛逛秒杀</a>
+                </li>
+                <li class="Centr-ted-type ">
+                    <img src="./images/pics/blank_redicon.png" alt="" class="list-ted-img">
+                    <p class="Centr-list-font">请，还没有待评论内容<br>买一个来看看</p>
+                    <a href="index.html" class="Centr-ted-link">逛逛秒杀</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 待评论没有数据 -->
+        <div class="duc-loading hided">
+            <i class="loading-font Orderr-font">没有更多数据</i>
+            <p class="Orderr-Line Line-wh"></p>
+        </div>
+        <!-- 已评论没有数据 -->
+        <div class="Orderr-nomoregoods">
+            <div class="nomoregoods-top">
+                <img src="./images/pics/niuniu.png" alt="">
+            </div>
+            <p class="Orderr-Line nomoregoods-wh"></p>
+            <i class="nomoregoods-font">亲。没有更多多了~哦</i>
+        </div>
+        <!-- loading动画 -->
+	    <div class="duc-loading loading-box hided">
+            <span class="duc-loading-wh Orderr-loading">
+                <em class="loading-animate duc-loading-wh">
+                </em>
+                <img src="./images/buc/loading_txt.png" alt="">
+            </span>
+            <i class="loading-font Orderr-font">正在努力加载...</i>
+            <p class="Orderr-Line Line-wh"></p>
+        </div>
+        <!-- 返回顶部和fixedbtn图标 -->
+        <ul class="duc-fixedbtn">
+            <li class="fixedbtn-list hided">
+                <a href="javascript:;" class="fixedbtn-link">
+                    <i class="iconfont icon-search fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="index.html" class="fixedbtn-link">
+                    <i class="iconfont icon-shouye1 fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="zuji.html" class="fixedbtn-link">
+                    <i class="iconfont icon-jiaoya fixedbtn-iconfont"></i>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided">
+                <a href="cart.html" class="fixedbtn-link">
+                    <i class="iconfont icon-gouwuche fixedbtn-iconfont"></i>
+                    <d class="fixedbtn-number hided">0</d>
+                </a>
+            </li>
+            <li class="fixedbtn-list hided buc-scroll-dip">
+                <a href="javascript:;" class="fixedbtn-link buc-scroll">
+                    <i class="iconfont icon-up fixedbtn-iconfont"></i>
+                </a>
+            </li>
+        </ul>
+    <!-- 尾部 -->
+    <div class="buc-foot hided">
+        <div class="foot-type">
+            <a href="javascript:;" class="foot-link clr">触屏版</a>
+            <a href="http://www.feiniu.com/?from=h5" class="foot-link">电脑版</a>
+            <a href="javascript:;" class="foot-link hided">退出</a>
+        </div>
+        <p>Copyright © 2013-2016 飞牛网,ALL Rights Reserved.</p>
+        <p>沪ICP备13025776号 营业执照</p>
+    </div>
+    <!-- 尾部提示框 -->
+    <div class="buc-foot-filex hided">
+        <div class="filex-box">
+            <p class="box-title">提示</p>
+            <p class="box-font">确定退出当前账户吗？</p>
+            <div class="buc-option">
+                <a href="javascript:;" class="buc-option-error">取消</a>
+                <a href="javascript:;" class="buc-option-Determine">确定</a>
+            </div>
+        </div>
+    </div>
+    <!-- 判断确定提示框 -->
+    <div class="filex-box-error hided">退出失败</div>
+    </div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/buc.js"></script>
+    <script src="./js/zepto-fx.js"></script>
+    <script src="./js/fx_methods.js"></script>
+    <script src="./js/zepto-touch.js"></script>
+    <script src="./js/Orderreview.js"></script>
+    <script src="./js/persoonall.js"></script>
+</body>
+</html>

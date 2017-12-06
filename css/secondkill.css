@@ -1,0 +1,19 @@
+.body { font-size: 0.28rem; color: #333; }
+
+.cart-top .secreat { width: 1.12rem; }
+
+.secondkill-body { width: 100%; display: flex; flex-wrap: nowrap; }
+
+.secondkill-body .swiper-container { width: 100%; height: 1.1rem; overflow: hidden; color: #999; background: url(../images/cart/bbg.jpg) center center/cover; }
+
+.secondkill-body .swiper-container .col { display: flex; align-items: center; }
+
+.secondkill-body .swiper-container .col .item { width: 1.5rem; padding: 0.3rem 0 0.14rem; display: flex; flex-direction: column; justify-content: space-between; align-items: center; }
+
+.secondkill-body .swiper-container .col .item.active { padding: 0.2rem 0 0.14rem; color: #fff; }
+
+.secondkill-body .swiper-container .col .item.active .time { font-size: 0.44rem; }
+
+.secondkill-body .swiper-container .col .item p { font-size: 0.24rem; }
+
+.secondkill-body .swiper-container .col .item p.time { font-size: 0.32rem; }

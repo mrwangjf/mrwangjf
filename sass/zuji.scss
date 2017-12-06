@@ -1,0 +1,95 @@
+.box-tou{
+ position: fixed;
+ top:0;
+ left:0;
+ width:100%;
+}
+.edit{
+  color:#666;
+  font-size: .32rem;
+  position: absolute;
+  right:.2rem;
+  top:0;
+  line-height: .88rem;
+  display: none;
+}
+.act1{
+  display: inline-block;
+}
+.pic-box{
+margin-top: .88rem;
+  padding: {
+      top:2rem;
+      bottom:.2rem;
+
+  }
+ .placeh-pic{
+   width:100%;
+   margin-top: 1rem;
+ }
+ .zan{
+   margin: .6rem 0;
+   text-align: center;
+   color:#6c6c6c;
+   font-size: .36rem;
+   line-height: .48rem;
+ }
+ .seckill{
+   display: block;
+   background-color: #d7063b;
+   color:#fff;
+   line-height: .8rem;
+   font-size: .42rem;
+   text-align: center;
+   border-radius: .06rem;
+   margin:.34rem .2rem;
+ }
+}
+// 底部删除
+.footer{
+  bottom:0;
+  left:0;
+  width:100%;
+  height:.98rem;
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  
+  .selectbox-a{
+      font-size: .28rem;
+      padding-left:.24rem;
+      color:#333;
+     
+  }
+  .circu{
+    width:.4rem;
+    height:.4rem;
+    line-height: .4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: .14rem;
+    border:.02rem solid #d5d5d5;
+  }
+}
+.btn-delete{
+  min-width:2.2rem;
+  height:.98rem;
+  color:#fff;
+  background-color: #dedede;
+  font-size: .36rem;
+  text-align: center;
+  line-height: .98rem;
+}
+.active{
+  background:#d7063b;
+  border:none;
+  &:after{
+    content:'\e604';
+    color:#fff;
+    font-size: .3rem;
+    font-family: iconfont!important;
+    line-height: 1;
+    margin-top: 0.05rem;
+  
+  }
+}

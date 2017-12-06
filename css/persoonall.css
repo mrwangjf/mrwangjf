@@ -1,0 +1,23 @@
+.Centr-list { border-top: .02rem solid #e7e7e7; height: .8rem; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; background: #fff; }
+
+.Centr-list .Centr-list-nav { height: 100%; line-height: .8rem; text-align: center; font-size: .28rem; color: #333333; }
+
+.Centr-list .Centr-list-active { color: #c20053; border-bottom: .04rem solid #c20053; }
+
+.Centr-list-ted { width: 100%; position: relative; }
+
+.Centr-list-ted .Centr-ted-type { position: absolute; display: none; top: 0; right: -100rem; padding-top: 1rem; }
+
+.Centr-list-ted .Centr-type-active { right: 0rem; z-index: 2; display: block; }
+
+.Centr-tedbox { height: 6rem; }
+
+.list-ted-img { width: 100%; margin-top: 1rem; }
+
+.Centr-list-font { padding: .6rem 0rem; font-size: .32rem; text-align: center; }
+
+.Centr-ted-link { display: block; background-color: #d7063b; color: #fff; line-height: .8rem; font-size: .42rem; text-align: center; -webkit-border-radius: .06rem; -moz-border-radius: .06rem; border-radius: .06rem; margin: .3rem .2rem; }
+
+.Centr-Nodata { width: 100%; padding-top: 1rem; }
+
+.hided-pseronna { display: none; }

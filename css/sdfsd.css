@@ -1,0 +1,79 @@
+body { background-color: #eee; }
+
+i.icon { color: #fff; }
+
+.outbox { width: 100%; }
+
+.my_login { height: 4.06rem; width: 100%; background: #fa5c70 url("../images/pics/top_bg_new.jpg") no-repeat bottom; padding: 0 .24rem; margin-bottom: .22rem; position: relative; -moz-background-size: 100% 100%; background-size: 100% 100%; }
+
+.my_login .my-icon { text-align: right; padding-top: 0.28rem; }
+
+.my_login .my-icon i.icon { color: #fff; font-size: 0.56rem; }
+
+.my_login .my-icon i.icon2 { margin-left: 0.1rem; }
+
+.content-head { width: 100%; height: 1.54rem; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; vertical-align: middle; }
+
+.content-head .port img { width: 1.46rem; height: 1.46rem; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border: .04rem solid #f9b5b6; }
+
+.loginbox { padding-left: .2rem; }
+
+.loginbox p { line-height: 1.54rem; }
+
+.loginbox p a { font-weight: 700; color: #fff; padding: 0 .2rem; }
+
+.loginbox p a:first-child { padding-right: .26rem; border-right: 0.02rem solid #fff; }
+
+.list-item { width: 100%; position: absolute; left: 0; bottom: -.02rem; background-color: #fff; }
+
+.list-item .list-li { height: 1.3rem; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: .3rem 0; }
+
+.list-item .list-li a { display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; -moz-box-flex: 1; -ms-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -moz-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.list-item .list-li a .icon3 { font-size: .3rem; }
+
+.list-item .list-li a span { font-size: .28rem; }
+
+.user-Order { height: 2.32rem; width: 100%; margin-bottom: .2rem; padding-left: .2rem; background: #fff; }
+
+.user-Order .Order-first { height: 0.9rem; border-bottom: .02rem solid #eee; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; padding-right: .24rem; -webkit-box-pack: justify; -webkit-justify-content: space-between; -moz-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.user-Order .Order-last { height: 1.4rem; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; padding: .16rem 0rem; }
+
+.fl-title { font-size: .32rem; }
+
+.fr-title { font-size: .24rem; color: #888888; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+
+.fr-title .icon-more { color: #989898; font-size: .4rem; }
+
+.last-list { width: 25%; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.last-list:hover .list-font { color: #ee2424; }
+
+.last-list i { height: .72rem; padding: .1rem 0rem; font-size: .48rem; }
+
+.last-list .list-font { height: .4rem; line-height: .4rem; font-size: .24rem; }
+
+.pe-Center2-menu { width: 100%; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; background: #fff; }
+
+.pe-Center2-menu .menu-list { width: 24.8%; height: 2rem; padding: .14rem 0rem; border-right: .02rem solid #eee; border-bottom: .02rem solid #eee; }
+
+.pe-Center2-menu .menu-list:nth-child(4n) { border-right: 0rem; }
+
+.menu-box { width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.menu-box .menu-img { height: .5rem; margin: .25rem 0rem; width: .5rem; }
+
+.menu-box .menu-introduce { font-size: .24rem; margin-bottom: .24rem; }
+
+.menu-box .menu-describe { font-size: .24rem; color: #999999; }
+
+.menu-box .img_personal1 { background: url("../images/pics/img_personal1.png") no-repeat center/cover; }
+
+.menu-box .img_personal2 { background: url("../images/pics/img_personal2.png") no-repeat center/cover; }
+
+.menu-box .img_personal3 { background: url("../images/pics/img_personal3.png") no-repeat center/cover; }
+
+.menu-box .img_personal4 { background: url("../images/pics/img_personal4.png") no-repeat center/cover; }
+
+.menu-box .img_personal5 { background: url("../images/pics/img_personal5.png") no-repeat center/cover; }
